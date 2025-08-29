@@ -5,7 +5,7 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-https://github.com/trub24/task_tracker.git
+https://github.com/trub24/TaskManager.git
 ```
 
 Cоздать и активировать виртуальное окружение:
@@ -39,9 +39,9 @@ python main.py
 Для запуска dockerfile, выполните команды: 
 
 ```
-docker build -t task_tracker .
+docker build -t TaskManager .
 ```
 
 ```
-docker run --name task_tracker --rm -p 8000:8000 task_tracker
+docker run --name TaskManager --rm -p 8000:8000 TaskManager
 ```
